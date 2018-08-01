@@ -2,7 +2,7 @@
 
 
 import React, { Component } from 'react';
-import Search from './Search';
+import SearchContainer from './SearchContainer';
 
 class Home extends Component {
 	constructor() {
@@ -20,11 +20,11 @@ class Home extends Component {
 	}
 
 	render() {
-		console.log(this.state.query)
+		console.log(this.state.query, 'this is state in Home.js')
 		return (
 			<div>
 				<h1>Hello, World!</h1>
-				<Search search={this.searchChange}/>
+				<SearchContainer searchChange={this.searchChange}/>
 			</div>
 		)
 	}
