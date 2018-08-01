@@ -2,11 +2,15 @@
 
 
 import React, { Component } from 'react';
+import Search from './Search';
 
 class Home extends Component {
 	render() {
 		return (
-			<h4>Hello, World!</h4>
+			<div>
+				<h1>Hello, World!</h1>
+				<Search />
+			</div>
 		)
 	}
 }
