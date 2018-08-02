@@ -2,7 +2,7 @@
 
 
 import React, { Component } from 'react';
-import SearchContainer from './SearchContainer';
+import SearchContainer from './SearchContainer'
 
 class Home extends Component {
 	constructor() {
@@ -24,7 +24,7 @@ class Home extends Component {
 		return (
 			<div>
 				<h1>Hello, World!</h1>
-				<SearchContainer searchChange={this.searchChange}/>
+				<SearchContainer />
 			</div>
 		)
 	}
